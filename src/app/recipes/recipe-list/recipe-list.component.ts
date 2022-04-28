@@ -10,11 +10,13 @@ export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
     new Recipe('A test Recipe', 'This is simply a test', 'https://www.glutenfreeandmore.com/wp-content/uploads/2018/07/15latkes.jpg')
+    ,new Recipe('A test Recipe', 'This is simply a test', 'https://www.glutenfreeandmore.com/wp-content/uploads/2018/07/15latkes.jpg')
   ]
 
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
